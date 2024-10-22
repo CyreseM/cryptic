@@ -1,0 +1,94 @@
+:root{
+  background-color: aliceblue;
+  margin:0;
+  padding: 0;
+};
+
+.signnav{
+    max-width: 100%;
+    width: auto;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding:0 1em 0;
+    border-bottom: 1px solid grey;
+  }
+  
+ .signnav  > h1{
+    margin-right: 2em;
+    background: linear-gradient(90deg, rgb(57, 53, 110) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+  }
+.logo{
+    background: linear-gradient(90deg, rgb(57, 53, 110) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.signhero{
+  max-width: 100%;
+  width: auto;
+  max-height: 90vh;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.hero-pic{
+  overflow: hidden;
+  position: relative;
+
+}
+.hero-pic > img{
+    position: relative;
+    right: 200px;
+    bottom: 80px;
+    transform: scale(0.5);
+    display: block;
+}
+
+
+.Signupform{
+  background-color: white;
+  width: 45vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.Signupform > label{
+  color: rgb(8, 33, 146);
+  font-size: 4em;
+  font-weight: bold;
+  padding: 0;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+.Signupform >input{
+  width: 30em;
+  height: 3em;
+  border: 1px solid #687fa0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.Signupform >input:focus{
+  outline: none;
+}
+
+.subsec{
+  width: 430px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

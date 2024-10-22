@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "name": "User",
+      "password": "password123",
+      "email": "mamammooo@gmail.com",
+      "account-type": "HNI",
+      "id": "1ed4"
+    },
+    {
+      "id": "ceab",
+      "email": "hhhhhhhh",
+      "password": "yyyyy"
+    },
+    {
+      "id": "834e",
+      "email": "yyyyy",
+      "password": "jedi98000"
+    },
+    {
+      "id": "9c78",
+      "email": "iiiiiiiii",
+      "password": "wedddd"
+    }
+  ]
+}
